@@ -7,6 +7,8 @@
     $num2 = 2;
     //operardor suma 
     $suma = $num1 + $num2;
+    $res->numero1=$num1;
+    $res->numero2=$num2;
     $res->suma= $suma;
 
     //operador resta
