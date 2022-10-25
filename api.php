@@ -5,7 +5,6 @@
     $res = new stdClass();
     $num1 =55.78;
     $num2 = 2;
-    
     //operardor suma 
     $suma = $num1 + $num2;
     $res->suma= $suma;
@@ -53,11 +52,7 @@
    // operador numero aleatorio redondeo
    $redondear= round($num1,1);
    $res->redondear= $redondear;
-
-   
-
-    echo json_encode($res, JSON_PRETTY_PRINT);
-
-
+   echo json_encode($res, JSON_PRETTY_PRINT);
+   echo "Soy el servisor operadores   ".$_SERVER['HTTP_HOST']." gracias por conectarme :)";
     
 ?> 
