@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operadores_07_10_2022</title>
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style.css"> 
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>Operadores aritmeticos</h1>
-    <pre id="datos"></pre>
+    <h1>Formulario</h1>
+   
+    <form id="MyData" method="POST" action="api.php">
+        <label>Ingresa el nombre*</label>
+        <input name="nombre" type="text" pattern="[A-Za-z]+" title="Ingrese solo letras" required>
+        <label>Ingresa la edad</label>
+        <input name="edad" type="text"pattern="[0-9]+" title="Ingrese solo numeros">
+        <label>Ingresa la <altura></altura></label>
+        <input name="altura" type="text" pattern="[0-9.]+" title="Ingrese solo numeros" required>
+        <label>Ingresa el peso</label>
+        <input name="peso" type="text" pattern="[0-9.]+" title="Ingrese solo numeros">
+        <input type="submit"value="Enviar datos">
+    </form>
 </body>
 </html>
