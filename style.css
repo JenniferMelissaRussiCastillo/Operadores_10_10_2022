@@ -1,15 +1,21 @@
 body{
-    background: #1f1f2e;
-
+    background: #121212;
 }
-h1{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-input{
-    display: block;
-    
+pre{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #f0f2f4;
+    background: white;
+    display: inline-block;
+    padding: 10px;
 }
 label{
     color: white;
+}
+input{
+    display: block;
+}
+input[type="submit"]{
+    margin-top: 10px;
+    cursor: pointer;
 }
