@@ -4,7 +4,6 @@ addEventListener("DOMContentLoaded", (e)=>{
         e.preventDefault();
         let data = Object.fromEntries(new FormData(e.targer));
         console.log(data);
-
     })
 
 })

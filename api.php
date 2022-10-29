@@ -4,6 +4,6 @@
 
     $res = new stdClass();
     
-   echo "Soy el servisor operadores   ".$_SERVER['HTTP_HOST']." gracias por conectarme :)";
+   echo "Soy el servisor formularios JSON".$_SERVER['HTTP_HOST']." gracias por conectarme :)";
     
 ?> 
